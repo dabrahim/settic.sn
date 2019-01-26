@@ -1,0 +1,38 @@
+main {
+  text-align: center;
+}
+main section {
+  width: 100%;
+  padding: 30px;
+}
+main .acc-block {
+  vertical-align: top;
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #5795D9;
+  text-align: center;
+  width: 500px;
+  padding: 30px;
+  margin: 15px auto;
+}
+main .acc-block .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #D7F6C6;
+  width: 160px;
+  height: 160px;
+  padding: 15px;
+  border-radius: 50%;
+}
+main .acc-block .img-container img {
+  width: 75%;
+  height: 75%;
+}
+main .acc-block h1 {
+  margin: 10px 0 15px 0;
+  color: #5795D9;
+}
+main .acc-block p {
+  color: #2f3a56;
+}

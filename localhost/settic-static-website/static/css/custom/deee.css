@@ -1,0 +1,27 @@
+p {
+  padding: 25px;
+  color: #2f3a56;
+  text-align: center;
+  font-size: 20px;
+}
+.line {
+  display: flex;
+  height: 200px;
+}
+.line section {
+  background-color: #EAFBE0;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 30px;
+  width: 50%;
+  color: #2f3a56;
+}
+.line section p,
+.line section li {
+  font-size: 20px;
+}
+.line img {
+  width: 50%;
+  object-fit: cover;
+}
