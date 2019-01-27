@@ -1,0 +1,125 @@
+main section {
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+}
+main section #bloc-0 {
+  border-left: 4px solid #2f3a56;
+  display: flex;
+  align-items: center;
+  margin: 130px 25px 50px 25px;
+  padding: 20px 15px;
+}
+main section #bloc-0 div {
+  text-align: left;
+}
+main section #bloc-0 div p {
+  margin: 5px;
+  font-weight: bold;
+  color: #2f3a56;
+  font-size: 25px;
+}
+main section #bloc-0 a {
+  margin: 0 0 0 auto;
+}
+main section #bloc-0 a button {
+  margin: 0;
+  padding: 5px 40px;
+  height: 60px;
+}
+main section > p:first-of-type {
+  font-size: 22px;
+  padding: 20px 0;
+  color: #2f3a56;
+}
+main section #boxes-block {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+main section #boxes-block .box-block {
+  width: 30%;
+  min-width: 250px;
+  max-width: 350px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+main section #boxes-block .box-block:nth-child(even) {
+  background-color: #EEFBE7;
+}
+main section #boxes-block .box-block:nth-child(even) button {
+  background-color: #5795D9;
+}
+main section #boxes-block .box-block:nth-child(odd) {
+  background-color: #E9F2FA;
+}
+main section #boxes-block .box-block:nth-child(odd) button {
+  background-color: #70D632;
+}
+main section #boxes-block .box-block img {
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+}
+main section #boxes-block .box-block .box-body {
+  padding: 20px;
+  width: 100%;
+}
+main section #boxes-block .box-block .box-body button {
+  padding: 10px 25px;
+  margin-top: 10px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+main section #boxes-block .box-block .box-body button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+main section #boxes-block .box-block .box-body h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+main section #boxes-block .box-block .box-body p {
+  font-size: 17px;
+  margin: 0 0 10px 0;
+  color: #2f3a56;
+}
+#layer #details-block {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#layer #details-block .full-content-block {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+}
+#layer #details-block .full-content-block img {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+#layer #details-block .full-content-block div {
+  padding: 15px;
+}
+#layer #details-block .full-content-block div h1 {
+  color: #5795D9;
+  margin: 10px 0;
+  font-size: 25px;
+}
+#layer #details-block .full-content-block div p {
+  margin: 0;
+  font-size: 18px;
+}

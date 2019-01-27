@@ -103,5 +103,6 @@ main section .acc-block:nth-child(even) button:hover {
   text-align: justify;
 }
 #layer #read-more-block div h3 {
-  margin: 15px 0 5px 0;
+  text-align: left;
+  margin: 15px 0 10px 15px;
 }
