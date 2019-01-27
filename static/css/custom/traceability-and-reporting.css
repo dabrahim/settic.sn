@@ -1,0 +1,36 @@
+main {
+  padding: 25px;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+main .block {
+  width: 45%;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  padding: 25px 30px 25px 25px;
+  max-height: 465px;
+  max-width: 600px;
+  align-items: center;
+}
+main .block img {
+  width: 120px;
+  height: 120px;
+}
+main .block div {
+  padding-left: 25px;
+}
+main .block div h1 {
+  color: #5795D9;
+  margin: 0;
+  font-size: 30px;
+}
+main .block div p {
+  margin: 0;
+  font-size: 20px;
+}
+main .block div .dashed-green-bar {
+  width: 100%;
+  border-top: 2px dashed #70D632;
+  margin: 15px 0 10px 0;
+}

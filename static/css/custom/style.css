@@ -137,6 +137,7 @@ header > ul .li-with-drop-down div {
   flex-direction: column;
   text-align: left;
   background-color: white;
+  box-shadow: 1px 1px 3px black;
 }
 header > ul .li-with-drop-down div span {
   padding: 5px;
