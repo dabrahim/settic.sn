@@ -144,3 +144,17 @@
   font-size: 22px;
   text-align: justify;
 }
+#scroll-down-indication {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+#scroll-down-indication h3 {
+  font-size: 16px;
+  margin: 0;
+}
+#scroll-down-indication img {
+  width: 28px;
+}
