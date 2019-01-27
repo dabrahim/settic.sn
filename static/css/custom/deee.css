@@ -1,0 +1,29 @@
+p {
+  color: #2f3a56;
+  font-size: 20px;
+  text-align: justify;
+}
+.line {
+  display: flex;
+  height: 200px;
+}
+.line section {
+  background-color: #EAFBE0;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 40px;
+  width: 50%;
+  color: #2f3a56;
+}
+.line section p,
+.line section li {
+  font-size: 20px;
+}
+.line section h2 {
+  font-size: 30px;
+}
+.line img {
+  width: 50%;
+  object-fit: cover;
+}

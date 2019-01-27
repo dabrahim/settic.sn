@@ -1,0 +1,107 @@
+main {
+  text-align: center;
+}
+main section {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main section .acc-block {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px #5795D9;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  height: 300px;
+}
+main section .acc-block img {
+  width: 180px;
+  height: 180px;
+  margin: 0 25px;
+  object-fit: cover;
+}
+main section .acc-block div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+main section .acc-block div h1 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+}
+main section .acc-block div p {
+  margin: 0;
+  font-size: 22px;
+}
+main section .acc-block button {
+  outline: none;
+  cursor: pointer;
+  padding: 5px 50px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+main section .acc-block button:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+main section .acc-block:nth-child(odd) {
+  background-color: white;
+}
+main section .acc-block:nth-child(odd) h1 {
+  color: #5795D9;
+}
+main section .acc-block:nth-child(odd) p {
+  color: gray;
+}
+main section .acc-block:nth-child(odd) button {
+  color: white;
+  background-color: #5795D9;
+}
+main section .acc-block:nth-child(odd) button:hover {
+  background-color: #2f7bce;
+}
+main section .acc-block:nth-child(even) {
+  background-color: #5795D9;
+}
+main section .acc-block:nth-child(even) h1,
+main section .acc-block:nth-child(even) p {
+  color: white;
+}
+main section .acc-block:nth-child(even) button {
+  color: #5795D9;
+  background-color: white;
+}
+main section .acc-block:nth-child(even) button:hover {
+  background-color: #e6e6e6;
+}
+#layer #read-more-block {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+#layer #read-more-block div h1 {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  color: #5795D9;
+}
+#layer #read-more-block div p {
+  font-size: 20px;
+  margin: 0 15px 15px 15px;
+  text-align: justify;
+}
+#layer #read-more-block div h3 {
+  margin: 15px 0 5px 0;
+}
