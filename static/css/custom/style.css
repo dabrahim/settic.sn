@@ -121,6 +121,9 @@ header > ul {
   list-style-type: none;
   display: inline-block;
 }
+header > ul .current-page a {
+  color: #95bce7;
+}
 header > ul .li-with-drop-down {
   position: relative;
 }
@@ -133,7 +136,7 @@ header > ul .li-with-drop-down div {
   width: 180px;
   height: auto;
   min-height: 15px;
-  bottom: -71px;
+  bottom: -75px;
   flex-direction: column;
   text-align: left;
   background-color: white;
@@ -154,7 +157,7 @@ header > ul > li {
   height: 17px;
   display: inline-block;
   color: white;
-  margin: 5px 10px;
+  padding: 5px 10px;
   font-weight: bold;
   /*> ul {
         //border: 1px solid black;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from localhost/settic.sn/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jan 2019 18:37:06 GMT -->
+<!-- Mirrored from localhost/settic.sn/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jan 2019 19:21:40 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
@@ -16,16 +16,11 @@
     <img src="static/icons/logo.png" alt="logo">
 
     <ul>
-        <li><a href="index-2.html">Accueil</a></li>
-        <li><a href="about.html">A propos</a>
-            <!--<ul>
-                <li><a href="about.php">A propos de SetTIC</a></li>
-                <li><a href="accompagnement.html">Accompagnement</a></li>
-            </ul>-->
-        </li>
-        <li><a href="deee.html">Les DEEE</a></li>
-        <li><a href="accompagnement.html">Accompagnement</a></li>
-        <li><a href="box.html">Nos Box de collecte</a></li>
+        <li ><a href="index-2.html">Accueil</a></li>
+        <li ><a href="about.html">A propos</a></li>
+        <li ><a href="deee.html">Les DEEE</a></li>
+        <li ><a href="accompagnement.html">Accompagnement</a></li>
+        <li ><a href="box.html">Nos Box de collecte</a></li>
         <li class="li-with-drop-down">
             <a href="deee-management.html">Gestion de DEEE <img src="static/icons/down-arrow-white-32.png" alt="arrow"></a>
             <div>
@@ -33,7 +28,8 @@
                 <span><a href="traceability-and-reporting.html">Tracabilité et reporting</a></span>
             </div>
         </li>
-        <li><a href="contact.html">Contactez nous</a></li>
+        <li class="current-page"><a href="contact.html">Contactez
+                nous</a></li>
     </ul>
     <a href="client.html">
         <button class="green-button">Espace client</button>
@@ -46,27 +42,37 @@
     </div>
 
     <main>
-        <!--<form action="" method="post">
+        <form action="#" method="post" id="contact-us-form">
             <select name="clientType">
                 <option value="">Vous êtes ?</option>
+                <option value="">Entreprise</option>
+                <option value="">Particulier</option>
             </select>
+
             <input type="text" placeholder="Structure">
+
             <div>
-                <input type="text" placeholder="Nom">
-                <input type="text" placeholder="Prénom">
+                <input type="text" placeholder="Nom" class="half">
+                <input type="text" placeholder="Prénom" class="half">
             </div>
+
             <input type="text" placeholder="Email">
+
             <div>
-                <select name="" id="">
+                <select name="" id="" class="half">
                     <option value="">Pays</option>
+                    <option value="">Sénégal</option>
+                    <option value="">Gambie</option>
+                    <option value="">Mauritanie</option>
                 </select>
-                <input type="text" placeholder="Téléphone">
+                <input type="text" placeholder="Téléphone" class="half">
             </div>
+
             <input type="text" placeholder="Comment nous avez vous connu ?">
+
             <textarea name="" cols="30" rows="10" placeholder="Votre message"></textarea>
-            <div>captcha</div>
-            <button>Envoyer message</button>
-        </form>-->
+            <button class="blue-button">Envoyer message</button>
+        </form>
     </main>
 
 
@@ -84,5 +90,5 @@
 <script type="application/javascript" src="static/js/custom/contact.js"></script>
 </body>
 
-<!-- Mirrored from localhost/settic.sn/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jan 2019 18:37:10 GMT -->
+<!-- Mirrored from localhost/settic.sn/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Jan 2019 19:21:42 GMT -->
 </html>

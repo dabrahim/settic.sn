@@ -1,19 +1,30 @@
-#header-bloc {
-  text-align: center;
-  background: url("../../images/electronic_waste.jpg");
-  background-size: cover;
-}
-#header-bloc div {
-  padding: 80px 0;
-  background-color: rgba(9, 46, 86, 0.8);
-}
-#header-bloc h1 {
-  color: white;
-  padding: 100px auto;
-  margin: 0;
-  font-size: 38px;
-}
-form {
-  width: 100%;
+main form {
+  margin: 40px auto 0 auto;
+  width: 80%;
   min-height: 300px;
+  text-align: center;
+}
+main form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main form .half {
+  width: calc(50% - 5px);
+}
+main form input,
+main form textarea,
+main form select {
+  margin: 5px 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #D5DBF3;
+  padding: 15px 15px;
+  width: 100%;
+  font-size: 17px;
+  outline: none;
+}
+main form button {
+  padding: 20px 45px !important;
+  margin: auto;
 }
