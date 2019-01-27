@@ -121,6 +121,34 @@ header > ul {
   list-style-type: none;
   display: inline-block;
 }
+header > ul .li-with-drop-down {
+  position: relative;
+}
+header > ul .li-with-drop-down:hover div {
+  display: flex;
+}
+header > ul .li-with-drop-down div {
+  display: none;
+  position: absolute;
+  width: 180px;
+  height: auto;
+  min-height: 15px;
+  bottom: -71px;
+  flex-direction: column;
+  text-align: left;
+  background-color: white;
+}
+header > ul .li-with-drop-down div span {
+  padding: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+header > ul .li-with-drop-down div span a {
+  color: #2f3a56;
+}
+header > ul .li-with-drop-down div span:hover {
+  background-color: #ebebeb;
+}
 header > ul > li {
   height: 17px;
   display: inline-block;
@@ -157,6 +185,14 @@ header > ul > li {
 }
 header > ul > li > a {
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > ul > li > a img {
+  margin-left: 8px;
+  height: 15px;
+  width: 15px;
 }
 header > ul > li:hover > ul {
   display: block;
